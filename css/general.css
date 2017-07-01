@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	max-width:2000px;
+	margin:auto;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+img{
+	display:block;
+}
+
+.text-pad{
+	padding:.5rem;
+}
+
+/* header*/
+
+
+
+@media only screen and (min-width: 30em){
+	nav{
+	    font-size: 1.2656rem;
+	    line-height: 1.1852;
+		width:100%;
+
+	}
+
+
+	.nav li{
+		padding:1rem 1rem;
+	}
+
+
+}
+
+
+
+.nav li{
+	display:inline-block;
+	padding:1rem .5rem;
+	float:right;
+}
+
+.nav li:before{
+	content:none;
+	position:absolute;
+	left:-1.3em;
+}
+
+.no-bottom,
+.no-bottom, link {
+	text-decoration:none;
+	border:none;
+	transition: none;
+}
+
+.nav,
+.nav:link {
+	color:#989898;
+}
+
+nav{
+	margin:auto;
+	background:rgba(255,255,255,.9);
+	position:fixed;
+	overflow:inherit;
+	width:100%;
+	z-index:1000;
+}
+
+.main{
+	background:transparent url(../images/wood) no-repeat center;
+	background-size:cover;
+	padding-bottom:3rem;
+	box-shadow: 0 0 10px #000000; 
+}
+
+.logo{
+	
+	margin:auto;
+	width:30%;
+	padding-top:4rem;
+	opacity: .9;
+}
+	
+.small-logo{
+	width:3rem;
+	display:inline-block;
+	border-bottom:none;
+	float:left;
+	padding: .5em;
+	margin:auto;
+	transition:all 250ms linear;
+}
+
+.centre{
+	text-align:center;
+}
+
+
+
+@media only screen and (min-width: 50em) {
+	.logo{
+		width:15rem;
+	}
+}
+
+/* quote */
+
+.quote{
+	font-size:40px;
+	font-weight:lighter;
+	color:#152428;
+	text-align: center;
+	display: block;
+}
+
+q{
+	padding:1rem;
+}
+
+@media only screen and (min-width: 23em){
+	.quote{
+		font-size:60px;
+		font-weight:lighter;
+		color:#152428;
+		transition:all 300ms linear;
+	}
+}
+
+.quote strong{
+	font-weight:bold;
+	color:#206671;
+	
+}
+
+/*portfolio*/
+
+.tittle{
+	color:#152428;
+}
+
+
+/*About*/
+
+#about{	
+}
+
+.about__content{
+	max-width:750px;
+	margin:auto;
+}
+
+.me{
+	width:100%;
+	background: no-repeat center url(../images/303346_468770679857795_1263383188_n.jpg);
+	background-size:cover;
+	height:30em;
+	width:100%;
+	display:inline-block; 
+}
+
+@media only screen and (min-width: 75em){
+	.me{
+		height: 40em;
+	}
+}	
+/*Contact*/
+
+#contact{
+}
+
+#contact div, .send-btn{
+	max-width:750px;
+	margin:auto;
+	padding:0 .5rem;
+}
+
+.message textarea{
+	height:10rem;
+	width:100%;
+}
+
+input{
+	height:1.5rem;
+	width:100%;	
+}
+
+.send-btn input{
+	border:none;
+	display:block;
+	background:none;
+	font-size:2.5rem;
+	font-weight:100;
+	height:5rem;
+}
+
+/*footer*/
+
+.icon img{
+	display:inline-block;
+}
+
+.icon{
+	margin:auto 0;
+}
+
+.icon-symbol{
+	width:20%;
+}
+@media only screen and (min-width: 22em){
+	.icon-symbol{
+		width:5rem;
+	}
+}
+
+.icon-symbol{
+	opacity:.5;
+	transition:all 250ms linear;
+}
+
+.icon-symbol:hover{
+	opacity:1;
+	transition:all 250ms linear;
+}
+
+
+/* 404*/
+
+.other-top{
+	background:transparent url(../images/boarded-up.jpg) no-repeat center;
+	background-size:cover;
+	padding-bottom:3rem;
+	box-shadow: 0 0 10px #000000; 
+	height:40rem;
+}
+
+.number{
+	font-size:10em;
+	padding-top:.01rem;
+	color:#fff;
+	text-align:center;
+}
+
+.text{
+	font-size:2em;
+	color:#FFFFFF;
+	text-align:center;
+}
+
