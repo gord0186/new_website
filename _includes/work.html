@@ -1,0 +1,18 @@
+<section>
+
+ 	<ul>
+ 		
+ 		{%  for peaces in site.portfolio_test %}
+	 		<li>
+	 			<a href="{{site.baseurl}}#">
+	 				<img src="{{peaces.images}}">
+
+	 				<h2>{{peaces.name}}</h2>
+
+	 				<p>{{peaces.price}}</p>
+	 			</a>
+	 		</li>
+	 	{% endfor %}
+ 	</ul>
+
+</section>
