@@ -6,15 +6,13 @@
 
  			{% if work.category == "work" %}
 
-		 		<li class="work work_content {{work.size}}">
+		 		<li style="background: #222 url('{{work.image}}') no-repeat center center ; background-size: cover;" class="work work_content {{work.size}}">
 
 		 			<a href="#">
 
-			 			<img class="work work_image" src="{{work.image}}">
-
-			 			<div class="work work_border">
+			 			<div class="work work_background">
 			 			
-			 				<h2 class="yotta work work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small>
+			 				<h2 class="yotta work_border "><strong class="work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small></strong>
 			 				</h2>
 
 			 			</div>
