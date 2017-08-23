@@ -1,17 +1,25 @@
 <section>
 
- 	<ul>
+ 	<ul class="work_wrapper">
  		
- 		{%  for peaces in site.portfolio_test %}
-	 		<li>
-	 			<a href="{{site.baseurl}}#">
-	 				<img src="{{peaces.images}}">
+ 		{%  for work in site.pages %}
 
-	 				<h2>{{peaces.name}}</h2>
+	 		<li class="work_content {{work.size}}">
 
-	 				<p>{{peaces.price}}</p>
+	 			<a href="#">
+
+		 			<div class="work_border">
+
+		 				<img class="work_image" src="{{work.image}}">
+
+		 				<h2 class="work_tittle">{{work.title}}</h2>
+
+		 			</div>
+
 	 			</a>
+
 	 		</li>
+	 		
 	 	{% endfor %}
  	</ul>
 

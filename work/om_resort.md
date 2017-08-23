@@ -1,8 +1,10 @@
 ---
-layout: product
+layout: default
 category: work
-title: peace 1
-meta: this is the first peace in the portfolio.
+title: Opeongo Mountain Resort
+meta: Opeongo Mountain Resort logo redesign 
+size: s-1 m-1-2 l-1-2
+image: http://via.placeholder.com/350x350
 ---
 
 ### Description
