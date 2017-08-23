@@ -2,24 +2,28 @@
 
  	<ul class="work work_wrapper">
  		
- 		{%  for work in site.pages %}
+ 		{% for work in site.pages %}
 
-	 		<li class="work work_content {{work.size}}">
+ 			{% if work.category == "work" %}
 
-	 			<a href="#">
+		 		<li class="work work_content {{work.size}}">
 
-		 			<img class="work work_image" src="{{work.image}}">
+		 			<a href="#">
 
-		 			<div class="work work_border">
-		 			
-		 				<h2 class="yotta work work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small>
-		 				</h2>
+			 			<img class="work work_image" src="{{work.image}}">
 
-		 			</div>
+			 			<div class="work work_border">
+			 			
+			 				<h2 class="yotta work work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small>
+			 				</h2>
 
-	 			</a>
+			 			</div>
 
-	 		</li>
+		 			</a>
+
+		 		</li>
+
+	 		{% endif %}
 	 		
 	 	{% endfor %}
  	</ul>
