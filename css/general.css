@@ -6,7 +6,7 @@ html{
 	/* background-color: #110e0d; */
 }
 
-/*                                   Navagation */
+/*------------------------------------Navagation-------------------------*/
 
 @-moz-viewport {
   width: device-width;
@@ -121,9 +121,8 @@ header {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/**
-sliding navigation
-*/
+/*------------------------------------sliding navigation-------------------------*/
+
 @media only screen and (max-width: 60em) {
   .site-wrapper {
     position: relative;
@@ -180,10 +179,7 @@ body.noscript .navigation {
   right: auto;
 }
 
-
-
-
-/*                                       masking */
+/*------------------------------------masking-------------------------*/
 
 .target{
 	display:block;
@@ -204,21 +200,18 @@ body.noscript .navigation {
           overflow: hidden;
 }
 
-
-/*                                      images */
-
+/*------------------------------------images-------------------------*/
 
 
 
-/*                                             Title     */
+/*------------------------------------Title-------------------------*/
 
 .title_image {
 	width:40%;
 	margin: 0 auto;
 }
 
-
-/*                                      Content    */
+/*------------------------------------Content-------------------------*/
 
 .content_wrapper{
 	padding: 1em;
@@ -229,5 +222,60 @@ body.noscript .navigation {
 	color: #fff;
 	font-weight: 100;
 }
+
+/*------------------------------------Work-------------------------*/
+
+.work_wrapper{
+  list-style-type: none;
+  width: 50%
+  overflow:hidden;
+  height:auto;
+}
+
+.work{
+  padding: 0;
+  margin:0;
+}
+
+.work_content, .work_meta_content{
+  position: relative;
+  width: 100%
+  height:100%;
+}
+
+.work_title{
+  position:absolute; 
+  padding: 1em;
+  top: 0;
+  width: 30%;
+  text-transform: uppercase;
+  background: rgba(1,2,3,.4);
+  width: 100%;
+  height: 98.25%;
+  color: #222;
+}
+
+.work_title:hover{
+  background: rgba(1,2,3,0);
+}
+
+.work_content a{
+}
+
+.work_meta{
+  position: absolute;
+  bottom: 1em;
+}
+
+small.work_small_tittle {
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+}
+
+
+
+
 
 

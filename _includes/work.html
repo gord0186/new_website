@@ -1,18 +1,19 @@
 <section>
 
- 	<ul class="work_wrapper">
+ 	<ul class="work work_wrapper">
  		
  		{%  for work in site.pages %}
 
-	 		<li class="work_content {{work.size}}">
+	 		<li class="work work_content {{work.size}}">
 
 	 			<a href="#">
 
-		 			<div class="work_border">
+		 			<img class="work work_image" src="{{work.image}}">
 
-		 				<img class="work_image" src="{{work.image}}">
-
-		 				<h2 class="work_tittle">{{work.title}}</h2>
+		 			<div class="work work_border">
+		 			
+		 				<h2 class="yotta work work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small>
+		 				</h2>
 
 		 			</div>
 

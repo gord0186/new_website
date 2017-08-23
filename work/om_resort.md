@@ -2,7 +2,7 @@
 layout: default
 category: work
 title: Opeongo Mountain Resort
-meta: Opeongo Mountain Resort logo redesign 
+meta: Logo Redesign 
 size: s-1 m-1-2 l-1-2
 image: http://via.placeholder.com/350x350
 ---

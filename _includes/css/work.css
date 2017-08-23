@@ -1,0 +1,9 @@
+{%  for work in site.pages %}
+
+	.work_content{
+		background: {{work.image}};
+	}
+
+
+{% endfor %}
+

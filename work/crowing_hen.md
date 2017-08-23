@@ -2,7 +2,7 @@
 layout: default
 category: work
 title: Crowing Hen farm
-meta: Crowing Hen Farm branding design
+meta: branding design
 size: s-1 m-1-2 l-1-2
 image: http://via.placeholder.com/350x350
 ---
