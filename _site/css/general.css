@@ -217,19 +217,14 @@ body.noscript .navigation {
 
 .title_image {
 	width:40%;
-	margin: 0 auto;
+	margin: 2em auto;
+  max-width: 300px;
 }
 
-/*------------------------------------Content-------------------------*/
+/*------------------------------------About-------------------------*/
 
-.content_wrapper{
-	padding: 1em;
-	line-height: 1.5em;
-}
-
-.content_wrapper .content{
-	color: #fff;
-	font-weight: 100;
+.about_content_wrapper{
+  padding: 3em;
 }
 
 /*------------------------------------Work-------------------------*/
