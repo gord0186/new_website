@@ -1,12 +1,12 @@
 <section>
 
- 	<ul class="work work_wrapper">
+ 	<ul class="grid work work_wrapper">
  		
  		{% for work in site.pages %}
 
  			{% if work.category == "work" %}
 
-		 		<li style="background: #222 url('{{work.image}}') no-repeat center center ; background-size: cover;" class="work work_content {{work.size}}">
+		 		<li style="background: #222 url('{{work.image}}') no-repeat center center ; background-size: cover;" class="unit work_content {{work.size}}">
 
 		 			<a href="#">
 

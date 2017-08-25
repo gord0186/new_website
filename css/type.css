@@ -3,6 +3,12 @@ html{
 	font: normal 100%/1.5 raleway,san-serif;	
 }
 
+/* work*/
+
+.work li:before{
+  content: none;
+}
+
 /* classes*/
 
 @media only screen and (min-width: 50em) {

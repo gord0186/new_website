@@ -66,7 +66,9 @@ body.noscript .toggle-btn {
 
 header {
   padding: 0 1em;
-  position: relative;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
 
 .toggle-btn {
@@ -99,7 +101,14 @@ header {
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: rgba(255,212,0,1);
+  height: 40px;
+  width: 40px;
+}
+
+.toggle-btn:hover,.toggle-btn:focus,.toggle-btn:active,
+.close-btn:hover,.close-btn:focus,.close-btn:active {
+  color: rgba(255,255,10,1);
   height: 40px;
   width: 40px;
 }
@@ -239,7 +248,7 @@ body.noscript .navigation {
 
 .work_content{
   position: relative;
-  height: 300px;
+  height: 400px;
   background-size: cover;
 }
 
@@ -255,10 +264,10 @@ body.noscript .navigation {
 .work_border{
   position: absolute;
   top: 0;
-  border-right: solid 5px #222;
+  /*border-right: solid 5px #222;
   border-bottom: solid 5px #222;
   width: 80%;
-  height: 80%;
+  height: 80%;*/
   margin: 1em;
 }
 
@@ -290,11 +299,36 @@ small.work_small_tittle {
 }
 
 
-  background-size: cover;
-  height: 300px;
+
+
+
+/*------------------------------------------Contact-----------------*/
+
+.icon_wrapper {
+    max-width: 700px;
+    margin: 1em auto;
+    display: block;
 }
 
+.icon_wrapper li:before {
+    content:none;
+}
 
+.contact_icon{
+    padding: 3em;
+    float: left;
+    width: 31%;
+}
 
+.contact_wrapper{
+  overflow: overlay;
+}
 
+.contact_wrapper h2{
+  padding: 3em 0 0;
+  text-align: center;
+}
 
+.contact_title{
+  text-transform: uppercase;
+}
