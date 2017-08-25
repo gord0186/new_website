@@ -9,7 +9,12 @@ image: http://via.placeholder.com/350x350
 
 ### Description
 
+{% include image_header.html background_image="http://via.placeholder.com/350x350" color="rgba(255,200,2,.6)" logo="logo.svg" %}
 
+{% include image.html class="s-1-2" image="http://via.placeholder.com/350x350" %}
+{% include image.html class="s-1-2" image="http://via.placeholder.com/350x350" %}
+{% include image.html class="s-1" image="http://via.placeholder.com/350x350" %}
+{% include image.html class="s-1" image="http://via.placeholder.com/350x350" %}
 
 {% include about.html 
 
