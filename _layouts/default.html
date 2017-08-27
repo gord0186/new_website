@@ -24,15 +24,8 @@
 <body class="noscript">
 	<div class="site-wrapper" data-state="slide-closed">
 		<div class="sliding-canvas">
-      <header class="header">
-        <img class="logo" src="{{site.baseurl}}/images/logo_new.svg" alt="logo">
-
-          <!-- Menu Toggle Icon -->
-        <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
-
+      
         {% include nav.html %}
-
-      </header><!-- /header -->
 
       	{{content}}
 
@@ -47,8 +40,8 @@
   <!-- JS -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="js/push-menu.js"></script>
-	<script src="js/slow-scoll.js"></script>
+	<script src="{{site.baseurl}}/js/push-menu.js"></script>
+	<script src="{{site.baseurl}}/js/slow-scoll.js"></script>
 
 </body>
 
