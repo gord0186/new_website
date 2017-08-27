@@ -203,8 +203,8 @@ body.noscript .navigation {
 
 
 .alpha_target {
-  -webkit-mask-image: url(/images/mask.png);
-          mask-image: url(/images/mask.png);
+  -webkit-mask-image: url(/{{site.baseurl}}/images/mask.png);
+          mask-image: url(/{{site.baseurl}}/images/mask.png);
   mask-mode: alpha;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
