@@ -61,7 +61,8 @@ body.noscript .toggle-btn {
 }
 
 .logo {
-  width: 100px;
+  width: 60px;
+  padding-top: .5em;
 }
 
 header {
@@ -119,6 +120,7 @@ header {
   padding: 13px 11px;
   height: 40px;
   width: 40px;
+  font-size: 2em;
 }
 
 .toggle-btn span,
@@ -129,6 +131,8 @@ header {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+
 
 /*------------------------------------sliding navigation-------------------------*/
 
@@ -327,3 +331,34 @@ small.work_small_tittle {
 .contact_title{
   text-transform: uppercase;
 }
+
+/*----------------------------------------inner pages-------------*/
+
+.page_header_image{
+  background-size: cover !important;
+}
+
+.inner_page{
+  height: 20em;
+}
+/*inner page image */
+
+.work_image{
+  padding: 1em;
+  width: 100%;
+  height: auto;
+}
+
+section.page_header_wrapper {
+    width: 100%;
+}
+
+p.about_content.exa {
+    letter-spacing: 0;
+}
+
+.page_header_logo {
+    height: 15em;
+    margin-top: 2em;
+}
+
