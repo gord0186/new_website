@@ -220,8 +220,8 @@ header {
 
 
 .alpha_target {
-  -webkit-mask-image: url(/images/mask.png);
-          mask-image: url(/images/mask.png);
+  -webkit-mask-image: url(/new_website/images/mask.png);
+          mask-image: url(/new_website/images/mask.png);
   mask-mode: alpha;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
