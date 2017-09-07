@@ -246,7 +246,11 @@ header {
 
 .about_content_wrapper{
   padding: 3em;
-  margin: 5em 0 8em 0;
+  margin: 5em 0 16em 0;
+}
+
+.about_home{
+  margin: 5em 0 0 0;
 }
 
 /*------------------------------------Work-------------------------*/
@@ -338,8 +342,7 @@ small.work_small_tittle {
 
 
 .contact_wrapper{
-  overflow: overlay;
-  margin: 5em 0 0 0;
+  margin: 5em 0 12em 0;
 }
 
 .contact_wrapper h2{
@@ -412,7 +415,8 @@ p.about_content.exa {
 }
 
 section.footer_wrapper {
-    position: relative;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer{
