@@ -1,27 +1,39 @@
-<div class="package_layout">
+<div class="package_back">
 
-    <div>
-      
-      <div class="scene"> 
-          
-        <div class="package">
+  <div class=" package_layout">
 
-          <div class="side front"> 
+      <div>
+        
+        <div class="scene"> 
+            
+          <div class="package">
 
-            <img src="{{site.baseurl}}/images/{{include.front}}">
+            <div class="side front"> 
 
+              <img src="{{site.baseurl}}/images/{{include.front}}">
+
+            </div>
+
+            <div class="side right"> 
+
+              <img src="{{site.baseurl}}/images/{{include.side}}">
+
+            </div>
+            
           </div>
 
-          <div class="side right"> 
-
-            <img src="{{site.baseurl}}/images/{{include.side}}">
-
-          </div>
-          
         </div>
 
       </div>
 
-    </div>
+  </div> 
 
-</div> 
+  <div>
+    
+    <p class="package_text package_mobile">(tap to image to see {{include.side_text}})</p>
+
+    <p class="package_text package_desktop">(hover over image to see {{include.side_text}})</p>
+
+  </div>
+
+</div>

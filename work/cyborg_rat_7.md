@@ -11,13 +11,11 @@ image: cyborg/cyborg_header.jpg
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="cyborg/old.jpg" %}
 
-{% include image.html class="no-padding-image s-1 m-1-3 l-1-3" image="cyborg/new_1.jpg" %}
-{% include image.html class="no-padding-image s-1 m-1-3 l-1-3" image="cyborg/new_2.jpg" %}
-{% include image.html class="no-padding-image  s-1 m-1-3 l-1-3" image="cyborg/new_3.jpg" %}
+{% include package.html front="cyborg/front.png" side="cyborg/right.png" side_text="right side" %}
 
-{% include package.html front="cyborg/front.png" side="cyborg/right.png"%}
+{% include package.html front="cyborg/back.png" side="cyborg/left.png" side_text="left side" %}
 
-{% include package.html front="cyborg/back.png" side="cyborg/left.png"%}
+{% include title.html title="Print layout" %}
 
 {% include image.html class="s-1 m-1-2 l-1-2" image="cyborg/main_flat.jpg" %}
 {% include image.html class="s-1 m-1-2 l-1-2" image="cyborg/inside_flat.jpg" %}
