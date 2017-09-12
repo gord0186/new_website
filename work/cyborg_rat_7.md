@@ -9,11 +9,23 @@ image: cyborg/cyborg_header.jpg
 
 {% include image_header.html background_image="cyborg/cyborg_header.jpg" color="rgba(255,255,255,.8)" logo="cyborg/cyborg_logo.svg" %}
 
+{% include title.html title="origianl package" %}
+
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="cyborg/old.jpg" %}
+
+<div class="s-1 m-1 l-1 background_package_page">
+
+{% include title.html title="New package design" %}
+
+</div>
 
 {% include package.html front="cyborg/front.png" side="cyborg/right.png" side_text="right side" %}
 
 {% include package.html front="cyborg/back.png" side="cyborg/left.png" side_text="left side" %}
+
+{% include image.html class="unit no-padding-image s-1 m-1-3 l-1-3" image="cyborg/new_1.jpg" %}
+{% include image.html class="unit no-padding-image s-1 m-1-3 l-1-3" image="cyborg/new_2.jpg" %}
+{% include image.html class="unit no-padding-image s-1 m-1-3 l-1-3" image="cyborg/new_3.jpg" %}
 
 {% include title.html title="Print layout" %}
 
