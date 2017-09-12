@@ -13,7 +13,7 @@ image: cyborg/cyborg_header.jpg
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="cyborg/old.jpg" %}
 
-<div class="s-1 m-1 l-1 background_package_page">
+<div class="s-1 m-1 l-1 background_light_grey_page">
 
 {% include title.html title="New package design" %}
 

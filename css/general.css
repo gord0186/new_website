@@ -428,11 +428,12 @@ p.about_content.exa {
     margin-top: 5em;
 }
 
-.background_package_page{
+.background_light_grey_page{
   background-color: rgba(245,245,255,1);
   padding: 0;
   margin: 0;
 }
+
 
 /*--------------------------------------inner page include title--*/
 
