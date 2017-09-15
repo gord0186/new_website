@@ -332,6 +332,29 @@ small.work_small_tittle {
 
 
 
+.work_btn h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+a.work_btn {
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    margin: 1em;
+    /* font-weight: 500; */
+    padding: .25em .5em;
+    color: #222;
+    /* width: 100%; */
+    border: 3px solid #333;
+    display: none;
+}
+
+
+.work_wrapper:hover .work_btn{
+  display:block;
+}
 
 
 /*------------------------------------------Contact-----------------*/
