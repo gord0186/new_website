@@ -348,15 +348,31 @@ a.work_btn {
     color: #222;
     /* width: 100%; */
     border: 3px solid #333;
+    display: block;
+
+}
+
+.work_content:hover .work_btn{
+  background: rgba(255,212,0,.8);
+  color: #222;
+}
+
+
+@media only screen and (min-width: 60em){
+
+  a.work_btn{
     display: none;
+  }
+
+  /*
+
+  .work_content:hover .work_btn{
+    display:block;
+  } 
+
+  */
+
 }
-
-
-.work_wrapper:hover .work_btn{
-  display:block;
-}
-
-
 /*------------------------------------------Contact-----------------*/
 
 .icon_wrapper {
