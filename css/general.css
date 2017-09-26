@@ -357,6 +357,13 @@ a.work_btn {
   color: #222;
 }
 
+.work_logo .work_image {
+  width: 75%;
+  margin: 3em auto;
+  display: block;
+
+}
+
 
 @media only screen and (min-width: 60em){
 
@@ -364,6 +371,9 @@ a.work_btn {
     display: none;
   }
 
+  .work_logo .work_image {
+    width: 50%;
+  }
   /*
 
   .work_content:hover .work_btn{
@@ -373,6 +383,30 @@ a.work_btn {
   */
 
 }
+/*------------------------------------------included----------------*/
+
+p.center {
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+}
+
+ .l_padding_bottom{
+    padding-bottom: 5em;
+  }
+
+@media only screen and (min-width: 60em){
+
+  .l_padding_top{
+    padding-top: 10em !important;
+  }
+
+  .l_padding_bottom{
+    padding-bottom: 10em;
+  }
+
+}
+
 /*------------------------------------------Contact-----------------*/
 
 .icon_wrapper {
