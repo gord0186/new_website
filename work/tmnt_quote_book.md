@@ -9,4 +9,15 @@ image: tmnt/tmnt_header.jpg
 
 {% include image_header.html background_image="tmnt/tmnt_header.jpg" color="rgba(34,179,115,.8)" logo="tmnt/tmnt_logo.svg" %}
 
-{% include about.html background_color="rgba(34,179,115,1)" about_content="This quote book is a book filled with quotes from the kids TV shows Teenage Mutant Ninja Turtles. Each quote is hand drawn graphite and colored to match the main colors of each character that said the quote." %}
+{% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="tmnt/marker.jpg" %}
+{% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="tmnt/colour.jpg" %}
+
+
+{% include image.html class="unit no-padding-image s-1 m-1 l-1" image="tmnt/quote-pg1.jpg" %}
+
+
+{% include about.html background_color="rgba(34,179,115,1)" class="inner_page_about"
+
+about_content="This quote book is a book filled with quotes from the kids TV shows Teenage Mutant Ninja Turtles. Each quote is hand drawn graphite and colored to match the main colors of each character that said the quote." 
+
+%}

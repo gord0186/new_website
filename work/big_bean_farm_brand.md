@@ -22,7 +22,7 @@ image: bbf/bbf_header.jpg
 {% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="bbf/shirt.png" %}
 {% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="bbf/apron.png" %}
 
-{% include about.html background_color="rgba(165,208,109,1)" 
+{% include about.html background_color="rgba(165,208,109,1)" class="inner_page_about"
 
 about_content="Design for a company that grows fresh farm vegetable. For the Company's logo, I wanted something to show the growth of their product. I based it off of a bean stake growing from the bean seed and keep it simplistic with a natural colour palette." 
 

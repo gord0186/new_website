@@ -28,7 +28,7 @@ image: om_resort/om_resort_header.jpg
 
 {% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="om_resort/shirt.jpg" %}
 
-{% include about.html background_color="rgba(245,245,255,.8)"
+{% include about.html background_color="rgba(245,245,255,.8)" class="inner_page_about"
 
 about_content="This is a logo for a resort in the Ottawa valley area just off of lake clear. Called Opeongo mountain resort. For their company logo, they wanted to have a new detailed and updated logo; that had a bass or a walleye in it." 
 

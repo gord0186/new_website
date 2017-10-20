@@ -254,11 +254,48 @@ header {
 
 .about_content_wrapper{
   padding: 3em;
-  margin: 5em 0 16em 0;
+  margin: 5em 0 5em 0;
 }
 
 .about_home{
-  margin: 5em 0 0 0;
+  margin: 0;
+}
+
+.about_content_wrapper{
+  padding: 3em;
+  margin: 5em 0 5em 0;
+}
+
+.inner_page_about{
+
+  margin: 0em 0 2em 0;
+}
+
+@media only screen and (min-width: 40em){
+  
+  .inner_page_about{
+
+    margin: 0em 0 5em 0;
+  }
+
+}
+
+@media only screen and (min-width: 50em){
+  
+  .inner_page_about{
+
+    margin: 0em 0 7em 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em){
+  
+  .inner_page_about{
+
+    margin: 0em 0 10em 0;
+  }
+
 }
 
 /*------------------------------------Work-------------------------*/
