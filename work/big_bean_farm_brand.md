@@ -19,8 +19,8 @@ image: bbf/bbf_header.jpg
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="bbf/bbf_stationary.jpg" %}
 
-{% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="bbf/shirt.png" %}
-{% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="bbf/apron.png" %}
+{% include image.html class="s-1 m-1-2 l-1-2" image="bbf/shirt.png" %}
+{% include image.html class="s-1 m-1-2 l-1-2" image="bbf/apron.png" %}
 
 {% include about.html background_color="rgba(165,208,109,1)" class="inner_page_about"
 

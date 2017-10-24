@@ -13,10 +13,22 @@ image: tmnt/tmnt_header.jpg
 {% include image.html class="unit no-padding-image s-1 m-1-2 l-1-2" image="tmnt/colour.jpg" %}
 
 
-{% include image.html class="unit no-padding-image s-1 m-1 l-1" image="tmnt/quote-pg1.jpg" %}
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg1.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg2.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg3.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg4.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg5.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg6.jpg" %}
+
+{% include image.html class="s-1 m-1 l-1" image="tmnt/quote-pg7.jpg" %}
 
 
-{% include about.html background_color="rgba(34,179,115,1)" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
 about_content="This quote book is a book filled with quotes from the kids TV shows Teenage Mutant Ninja Turtles. Each quote is hand drawn graphite and colored to match the main colors of each character that said the quote." 
 

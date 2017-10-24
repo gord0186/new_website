@@ -522,6 +522,7 @@ p.center {
   margin: 0;
   padding: 0;
   width: 100%;
+  margin-bottom: -.5em;
 
 }
 
@@ -536,6 +537,7 @@ p.about_content.exa {
 .page_header_logo {
     height: 15em;
     margin-top: 5em;
+    padding: 1em;
 }
 
 .background_light_grey_page{
