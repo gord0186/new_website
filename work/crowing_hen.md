@@ -16,6 +16,8 @@ image: crowing_hen/crowing_hen_header.jpg
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="crowing_hen/icon.jpg" %}
 
+{% include image.html class="unit no-padding-image s-1 m-1 l-1" image="crowing_hen/icon2.jpg" %}
+
 {% include small_title.html class="center" text="( Icon )" %}
 
 {% include image.html class="no-padding-image s-1 m-1-3 l-1-3" image="crowing_hen/logo_bw.jpg" %}
