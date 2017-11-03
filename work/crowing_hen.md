@@ -8,15 +8,17 @@ image: crowing_hen/crowing_hen_header.jpg
 ---
 {% include image_header.html background_image="crowing_hen/crowing_hen_header.jpg" color="rgba(255,220,30,.6)" logo="crowing_hen/crowing_hen_logo.svg" %}
 
+{% include about.html background_color="rgba(2,200,255,.0)" class="inner_page_about"
 
+about_content="Crowing Hen Farm is a small Ottawa Valley-based farm that specializes in the growing of premium produce and homemade preservatives. There Quality has been well noticed at all of the local flee marked so they now want to try expanding into to roadside produce stands with employees. For this project, I need to create the logo, brand identity, and other promotional products." 
+
+%}
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="crowing_hen/logo_main.jpg" %}
 
 {% include small_title.html class="center" text="( Main Logo )" %}
 
 {% include image.html class="unit no-padding-image s-1 m-1 l-1" image="crowing_hen/icon.jpg" %}
-
-{% include image.html class="unit no-padding-image s-1 m-1 l-1" image="crowing_hen/icon2.jpg" %}
 
 {% include small_title.html class="center" text="( Icon )" %}
 
@@ -33,8 +35,3 @@ image: crowing_hen/crowing_hen_header.jpg
 
 
 
-{% include about.html background_color="rgba(2,200,255,.0)" class="inner_page_about"
-
-about_content="logo design for a local Ottawa Valley farm that sells fresh produce, homemade preservatives, and fresh bread. For this logo design, I went with a custom font that is based on a crowing rooster arch in his neck. I added the shadow on the font to go bring back some of the olden day's farm logo style." 
-
-%}
