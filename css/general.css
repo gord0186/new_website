@@ -65,6 +65,11 @@ body.noscript .toggle-btn {
   padding: .5em;
 }
 
+a.logo_link {
+    z-index: 999;
+    position: absolute;
+}
+
 header {
   position: absolute;
   z-index: 999;
