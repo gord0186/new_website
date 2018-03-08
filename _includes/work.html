@@ -1,33 +1,57 @@
 <section id="work">
 
- 	<ul class="grid work work_wrapper">
- 		
- 		{% for work in site.pages %}
+	<div class="grid work work_wrapper">
 
- 			{% if work.category == "work" %}
+		{% for work in site.pages %}
 
-		 		<li style="background: #222 url('{{site.baseurl}}/images/{{work.image}}') no-repeat center center ; background-size: cover;" class="unit work_content {{work.size}}">
+	 		{% if work.category == "work" %}
 
-		 			<a href="{{site.baseurl}}{{work.url}}">
+				
+	 				
 
-			 			<div class="work work_background">
+			          	<div class=" unit father work_content {{work.size}}">
+
+			          			
+			          		<a href="{{site.baseurl}}{{work.url}}">	
+
+			            	<div style="background: #222 url('{{site.baseurl}}/images/{{work.image}}') no-repeat center center ; background-size: cover;" class=" work_front">
+			            	
+			            	</div>
+
+			           
+
+			            	
+
+			            	<div class="work_back">
+
+			            	
+
+			            		<h2 class="yotta work_border ">
+
+			            			<strong class="work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small></strong>
+
+				 				</h2>
+
+				 				<a class="work_btn" href="{{site.baseurl}}{{work.url}}">
+
+			 						<h2>More Info</h2>
+
+			 					</a>
+
 			 			
-			 				<h2 class="yotta work_border "><strong class="work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small></strong>
-			 				</h2>
 
-			 			</div>
+				 			</div>
 
-		 			</a>
+				 			</a>
 
-		 			<a class="work_btn" href="{{site.baseurl}}{{work.url}}">
-		 				<h2>More Info</h2>
-		 			</a>
+			          	</div>
 
-		 		</li>
+		      	
 
-	 		{% endif %}
-	 		
-	 	{% endfor %}
- 	</ul>
+	      	{% endif %}
+		 		
+		 {% endfor %}
+
+	</div>
 
 </section>

@@ -30,7 +30,7 @@ a,
 a:link {
 	color: #7E7E7E;
 	text-decoration: none;
-	border-bottom:0.1em solid #0000;
+	/*border-bottom:0.1em solid #0000;*/
 	transition: all 200ms linear;
 }
 
