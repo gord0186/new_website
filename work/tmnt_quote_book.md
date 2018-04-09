@@ -11,7 +11,7 @@ image: tmnt/tmnt_header.jpg
 
 {% include about.html class="inner_page_about"
 
-about_content="The Teenage Mutant Ninja Turtles (TMNT) is a classic comic book and TV series that started in the 1980's. It grew in great popularity having multiple shows, movies, and product. So to pay respect to this great classic comic book and show I created a book of hand-drawn quotes that describes each charter the best from there 1984 cartoon and there 1990's live-action movies.  For each character in the book, there is a hand-drawn quote on the left and a small description of the character on the right." 
+about_content="The Teenage Mutant Ninja Turtles (TMNT) is a classic comic book and TV series that started in the 1980's. It grew in great popularity having multiple shows, movies, and products. So to pay tribute to this great classic, I created a one of a kind book of hand-drawn quotes that describes each character the best from there 1984 cartoon and there 1990's live-action movies. Each character in the book has a hand-drawn quote on the left and a small description on the right." 
 
 %}
 

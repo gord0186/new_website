@@ -9,9 +9,9 @@ image: cyborg/cyborg_header.jpg
 
 {% include image_header.html background_image="cyborg/cyborg_header.jpg" color="rgba(255,255,255,.8)" logo="cyborg/cyborg_logo.svg" %}
 
-{% include about.html background_color="rgba(245,245,255,0)" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
-about_content="Mad Catz is one of the best gaming hardware providers in the industry. For this project, I needed to redesign and create a new Eco-friendly package design for the Mad Catz Cyborg Rat 7 computer mouse. To accomplish this I created Glueless Package out of recycled cardboard for the main box and the second box which holds all the extra parts. I then Designed an aluminum stand that wrapped around the secondary box to hold and display the mouse. " 
+about_content="Mad Catz is one of the leading gaming hardware providers in the industry. For this project, it was necessary to redesign a new eco-friendly package design for the Mad Catz, Cyborg Rat 7 computer mouse. To accomplish this I designed a glue-less package out of recycled cardboard for the main box and the secondary box. The secondary box is necessary to hold all the additional hardware that is included to customize the mouse. In addition an 100% recyclable stand made out of aluminum that wrap around the secondary box and sat inside the first box was designed to hold and display the mouse." 
 
 %}
 

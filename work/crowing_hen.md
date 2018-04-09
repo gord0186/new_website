@@ -8,9 +8,9 @@ image: crowing_hen/crowing_hen_header.jpg
 ---
 {% include image_header.html background_image="crowing_hen/crowing_hen_header.jpg" color="rgba(255,220,30,.6)" logo="crowing_hen/crowing_hen_logo.svg" %}
 
-{% include about.html background_color="rgba(2,200,255,.0)" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
-about_content="Crowing Hen Farm is a small Ottawa Valley-based farm that specializes in the growing of premium produce and homemade preservatives. There Quality has been well noticed at all of the local flee marked so they now want to try expanding into to roadside produce stands with employees. For this project, I need to create the logo, brand identity, and other promotional products." 
+about_content="Crowing Hen Farm is a small Ottawa Valley-based farm that specializes in the growing of premium produce and homemade preservatives. There Quality has been well noticed at all of the local flea markets. As such they are now expanding into roadside produce stands with employees. For this project it was important to design a logo, brand identity, and other promotional products." 
 
 %}
 

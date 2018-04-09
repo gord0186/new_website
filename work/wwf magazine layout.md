@@ -1,7 +1,7 @@
 ---
 layout: inner_page
 category: work
-title: WWF magazine
+title: WWF booklet
 meta: layout design 
 size: s-1 m-1-2 l-1-2
 image: wwf/wwf_header.jpg
@@ -9,9 +9,9 @@ image: wwf/wwf_header.jpg
 
 {% include image_header.html background_image="wwf/wwf_header.jpg" color="rgba(255,255,255,.8)" logo="wwf/wwf_logo.svg" %}
 
-{% include about.html background_color="#fff" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
-about_content="WWF ( World Wildlife Fund ) is an organization that works to protect the future of nature. in this project, they talked about all of the success stories in North America, and how they used your money to accomplish this. throughout the book are animals That are indigenes to the North American region and maps that mark the location of all there success stories in North America." 
+about_content="World Wildlife Fund (WWF) is an organization that works to protect the future of nature. The subject of the booklet was all of the success stories in North America, and how the protection of wildlife was accomplished with the donations of generous people. Throughout the book, there are images of animals that are indigenes to the North American region, and maps that mark out the locations of all their success stories." 
 
 %}
 

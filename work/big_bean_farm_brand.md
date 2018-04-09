@@ -9,9 +9,9 @@ image: bbf/bbf_header.jpg
 
 {% include image_header.html background_image="bbf/bbf_header.jpg" color="rgba(165,208,109,.8)" logo="bbf/bbf_logo.svg" %}
 
-{% include about.html background_color="rgba(165,208,109,1)" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
-about_content="Big Bean Farm is a farm that is located in the Ottawa Valley; they started off by just growing beans and selling them and now has started growing different produce like corn, kale. For this project, I needed to design a logo that promoted the growth of there produces and their company." 
+about_content="Big Bean Farm is a produce farm that is located in Pembroke Ontario. They first started in the industry by growing beans, they have now expanded into many different types of produce like corn, kale. I was contacted by the owner to design a logo that promoted the growth of there produce and their company." 
 
 %}
 

@@ -9,9 +9,9 @@ image: om_resort/om_resort_header.jpg
 
 {% include image_header.html background_image="om_resort/om_resort_header.jpg" color="rgba(255,255,255,.8)" logo="om_resort/om_resort_logo.svg" %}
 
-{% include about.html background_color="#fff" class="inner_page_about"
+{% include about.html class="inner_page_about"
 
-about_content="Opeongo Mountain Resort is a small camp that is located on Lake Clear in the Ottawa Valley. They are known for the excellent Bass fishing and their beautiful mountain scenery. For this project, I need to create a New updated logo, stationery, and promotional products." 
+about_content="Opeongo Mountain Resort is a small camp that is located in the Ottawa Valley right on the beautiful lake clear. They are known for the excellent bass fishing, and their beautiful mountain sceneries. The company enlisted my services to create a new updated logo, stationery, and promotional products." 
 
 %}
 
