@@ -3,7 +3,6 @@
 html{
 	max-width:2000px;
 	margin:auto;
-	/* background-color: #110e0d; */
 }
 
 /*------------------------------------Navagation-------------------------*/
@@ -138,8 +137,6 @@ header {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-
-
 /*------------------------------------sliding navigation-------------------------*/
 
 .site-wrapper {
@@ -219,9 +216,7 @@ header {
 
   }
 
-
 }
-
 
 /*------------------------------------masking-------------------------*/
 
@@ -231,7 +226,6 @@ header {
 	height: auto;
 	max-height: 0 auto;
 }
-
 
 .alpha_target {
   -webkit-mask-image: url(/new_website/images/mask.png);
@@ -243,10 +237,6 @@ header {
           mask-size: 100%;
           overflow: hidden;
 }
-
-/*------------------------------------images-------------------------*/
-
-
 
 /*------------------------------------Title-------------------------*/
 
@@ -267,12 +257,10 @@ header {
   margin: 0;
 }
 
-
 .inner_page_about{
 
   margin: 0;
 }
-
 
 /*------------------------------------Work-------------------------*/
 
@@ -305,10 +293,6 @@ header {
 .work_border{
   position: absolute;
   top: 0;
-  /*border-right: solid 5px #222;
-  border-bottom: solid 5px #222;
-  width: 80%;
-  height: 80%;*/
   margin: 1em;
 }
 
@@ -342,8 +326,6 @@ small.work_small_tittle {
     padding:0;
 }
 
-
-
 .work_btn h2 {
     margin: 0;
     padding: 0;
@@ -355,10 +337,8 @@ a.work_btn {
     position: absolute;
     bottom: 0;
     margin: 1em;
-    /* font-weight: 500; */
     padding: .25em .5em;
     color: #222;
-    /* width: 100%; */
     border: 3px solid #333;
     display: block;
     width: 93%;
@@ -381,21 +361,14 @@ a.work_btn:hover {
 
 }
 
-
 @media only screen and (min-width: 60em){
 
   .work_logo .work_image {
     width: 50%;
   }
-  /*
-
-  .work_content:hover .work_btn{
-    display:block;
-  } 
-
-  */
 
 }
+
 /*------------------------------------------included----------------*/
 
 p.center {
@@ -448,7 +421,6 @@ p.center {
     float: left;
 }
 
-
 .contact_wrapper {
     padding-bottom: 3em;
 }
@@ -461,7 +433,6 @@ p.center {
     width: 31%;
     z-index: 9999;
   }
-
 
 }
 /*----------------------------------------inner pages-------------*/
@@ -600,8 +571,6 @@ footer.footer_main {
   margin-top: -5em;
 }
 
-
-
 .side {
   box-sizing: border-box;
   position: absolute;
@@ -705,8 +674,6 @@ footer.footer_main {
 }
 
 /*----------------------------work test----------------------------*/
-
-
 
   .father {
     height:20em;
