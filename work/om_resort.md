@@ -4,10 +4,10 @@ category: work
 title: Opeongo Mountain Resort
 meta: Logo Rebranding
 size: s-1 m-1-2 l-1-2
-image: om_resort/om_resort_header.jpg
+image: om_resort/stationary.jpg
 ---
 
-{% include image_header.html background_image="om_resort/om_resort_header.jpg" color="rgba(255,255,255,.8)" logo="om_resort/om_resort_logo.svg" %}
+{% include image_header.html background_image="om_resort/stationary.jpg" color="rgba(255,255,255,.8)" logo="om_resort/om_resort_logo.svg" %}
 
 {% include about.html class="inner_page_about"
 
