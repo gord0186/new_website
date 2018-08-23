@@ -52,6 +52,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background: #fffefd;
 }
 
 body.noscript .close-btn,
@@ -246,11 +247,20 @@ header {
   max-width: 300px;
 }
 
+@media only screen and (min-width: 60em){
+
+  .title_image {
+    width:60%;
+  }
+
+}
+
 /*------------------------------------About-------------------------*/
 
 .about_content_wrapper{
-    padding: 3em 5em 5em;
-    margin: 0;
+    padding: 5em 1em;
+    margin: 1em auto;
+    width: 70%;
 }
 
 .about_home{
