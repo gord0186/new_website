@@ -99,23 +99,22 @@ header {
   text-decoration: none;
   font-size: 1.5em;
   -webkit-transition:color 2s;
-  transition: color 2s;
+  transition: color .5s;
 }
 
 .navigation ul a:hover {
-  color: rgba(153,68,71,.8);
+  color: rgba(175,175,175,1);
 }
 
 .toggle-btn,
 .close-btn {
-  color: rgba(153,68,71,.8);
   height: 40px;
   width: 40px;
 }
 
 .toggle-btn:hover,.toggle-btn:focus,.toggle-btn:active,
 .close-btn:hover,.close-btn:focus,.close-btn:active {
-  color: rgba(255,255,10,1);
+  color: rgba(0,0,0,1);
   height: 40px;
   width: 40px;
 }
@@ -429,6 +428,11 @@ p.center {
     width: 100px;
     margin: 2em;
     float: left;
+}
+
+.contact_icon :hover {
+    opacity: .5;
+    transition: .5s;
 }
 
 .contact_wrapper {
